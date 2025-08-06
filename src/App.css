@@ -1,0 +1,46 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    overflow-x: hidden;
+}
+
+.homepage_bg{
+    background:url("../src/assets/Images/bghome.svg") ;
+}
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #dbdcef;
+   border-right-color: #474bff;
+   animation: spinner-d3wgkg 1s infinite linear;
+}
+
+@keyframes spinner-d3wgkg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+
+
+/* Smaller solid white inactive bullet */
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+/* Active bullet: blue and fully visible */
+.swiper-pagination-bullet-active {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  opacity: 1;
+}
