@@ -72,11 +72,19 @@ studynotion
 ## ⚙ How to run this project
 
 ### Step 1: Clone project
+git clone https://github.com/yourusername/studynotion.git
+
+cd studynotion
 
 ### Step 2: Backend setup
+cd backend
+npm install
+npm start
 
 ### Step 3: Frontend setup
-
+cd frontend
+npm install
+npm run dev
 
 ---
 
@@ -84,6 +92,12 @@ studynotion
 
 Create `.env` file inside backend folder:
 
+MONGODB_URL=your_mongodb_url
+JWT_SECRET=your_secret
+CLOUDINARY_NAME=xxx
+CLOUDINARY_API_KEY=xxx
+CLOUDINARY_SECRET_KEY=xxx
+RAZORPAY_KEY=xxx
 
 ---
 
