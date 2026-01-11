@@ -26,8 +26,6 @@ with secure login, course management and video lectures.
 
 
 
----
-
 ## 🛠 Technologies Used
 
 Frontend:
